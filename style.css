@@ -1,0 +1,62 @@
+body{
+    background-color: hsl(47, 88%, 63%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-family: 'Figtree', sans-serif; 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.card {
+    border-radius: 18px;
+    width: 370px;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: aliceblue;
+    box-shadow: 8px 8px 2px black ;
+}
+
+.sv{  
+    display: block; 
+    margin: 1em auto;
+    border-radius: 15px;
+}
+
+
+h1{
+    width: 15em;
+    font-size: 1.3em;
+    font-weight: 800;
+}
+
+.description{
+    color: #858585;
+}
+
+.type_course{
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 5px;
+    width: 6em;
+    padding: 0.5em 0;
+    text-align: center;
+    margin-left: 1em;
+    font-weight: 800;
+}
+
+.content{
+    margin-left: 1em;
+}
+
+.img{
+    width: 2em;
+    padding-right: 0.5em;
+}
+
+.user{
+    display: flex;
+    margin-left: 1em;
+    align-items: center;
+    font-weight: 800; 
+}
